@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.headH {
+    background-color: bisque;
+    text-align: center;
+    padding: 30px;
+    color: chocolate;
+    font-size: 40px;
+}
+
+nav {
+    background-color: rgb(243, 241, 234);
+    padding: 25px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+}
+
+nav a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 30px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+nav a:hover {
+    color: darkviolet;
+    font-size: 35px;
+}
+
+.logging {
+    font-size: 25px;
+    
+}
+
+.logging:hover {
+    font-size: 30px;
+}
+
+.pizza {
+    margin-top: 20px; 
+    text-align: center;
+    width: 100%;
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    /* background-color: rgba(221, 98, 98, 0); */
+    height: auto;
+}
+
+.backop{
+    background-color: rgba(255, 248, 220, 0.575);
+}
+.pizzvid {
+    text-align: center;
+    /* margin-left: 20px; */
+    width: 45%;
+    display: inline-block;
+    margin: auto;
+}
+
+.pizzdis {
+    text-align: center;
+    /* margin-right: 20px; */
+    width: 45%;
+    display: inline-block;
+    margin: auto;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+.buttons{
+    border: rgba(0, 0, 0, 0.514) solid 2px;
+    border-radius: 25%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 94, 0);
+    margin-bottom: 10px;
+}
+
+.buttons:hover {
+    color: blue;
+    background-color: darksalmon;
+}
+
+.manti {
+    margin-top: 20px; 
+    text-align: center;
+    width: 100%;
+    background-image: url('manti.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    /* background-color: rgba(221, 98, 98, 0); */
+    height: auto;
+}
+
+.mantvid {
+    text-align: center;
+    /* margin-left: 20px; */
+    width: 45%;
+    display: inline-block;
+    margin: auto;
+}
+
+.mantdis {
+    text-align: center;
+    /* margin-right: 20px; */
+    width: 45%;
+    display: inline-block;
+    margin: auto;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+.mahshi {
+    margin-top: 20px; 
+    text-align: center;
+    width: 100%;
+    background-image: url('mahshi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    /* background-color: rgba(221, 98, 98, 0); */
+    height: auto;
+}
+
+.mahvid {
+    text-align: center;
+    /* margin-left: 20px; */
+    width: 45%;
+    display: inline-block;
+    margin: auto;
+}
+
+.mahdis {
+    text-align: center;
+    /* margin-right: 20px; */
+    width: 45%;
+    display: inline-block;
+    margin: auto;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+.btngroup{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 248, 220, 0.945);
+    padding-top: 20px;
+    margin-top: -40px;
+    
+}
+.bAll{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px;
+    /* margin-right: 10px; */
+    background-color: coral;
+    border: rgba(0, 0, 0, 0.514) solid 2px;
+    border-radius: 40% 40%;
+    color: rgb(112, 12, 112);
+    display: inline-block;
+}
+
+.bAll:hover {
+    color: deeppink;
+    background-color: dimgray;
+}
+
+.bCont{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px;
+    /* margin-left: 10px; */
+    background-color: rgb(226, 173, 154);
+    border: rgba(0, 0, 0, 0.514) solid 2px;
+    color: rgb(139, 0, 19);
+    display: inline-block;
+
+}
+
+.bCont:hover{
+    color: rgb(2, 48, 2);
+    background-color: rgb(122, 92, 205);
+    border-radius: 20% 0% 20% 0%;
+}
